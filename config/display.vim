@@ -16,6 +16,8 @@ set colorcolumn=80
 set number
 " No line wrap
 set nowrap
+" When using wrap, wrap it not in the middle of a word pls
+set linebreak
 
 " ==== PLUGINS =============================================
 
