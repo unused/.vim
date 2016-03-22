@@ -14,3 +14,5 @@ $ ln -s ~/.vim/vimrc ~/.vim
 
 Config allows window switching with `<c-hjkl>`, remember: you can `:split` or `:vsplit` a buffer whereas `<c-w>c` will close it again.
 
+See the [plugins config](/config/plugins.vim) to check used plugins.
+
