@@ -17,6 +17,8 @@ Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 " Fuzzy file searcher
 Plug 'wincent/command-t'
+" Move blocks/lines around
+Plug 'matze/vim-move'
 
 
 " ==== PROGRAMMING =========================================

@@ -24,3 +24,10 @@ let g:NERDTreeDirArrowCollapsible = '~'
 
 " Set files to ignore with fuzzy search
 set wildignore+=*.log,*.sql,*.cache
+
+" Use <C-HJKL> to move blocks/lines around
+let g:move_map_keys = 0
+vmap <C-J> <Plug>MoveBlockDown
+vmap <C-K> <Plug>MoveBlockUp
+nmap <C-J> <Plug>MoveLineDown
+nmap <C-K> <Plug>MoveLineUp
