@@ -19,7 +19,8 @@ nmap <silent> <C-l> :wincmd l<CR>
 let NERDTreeQuitOnOpen = 1
 " Hide some not interesting files in nerd tree
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
-let g:NERDTreeDirArrows=0
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '~'
 
 " Set files to ignore with fuzzy search
 set wildignore+=*.log,*.sql,*.cache
