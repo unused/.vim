@@ -17,3 +17,6 @@ set showmatch
 
 " Use enter in normal mode to save
 nmap <CR> :w<CR>
+
+" Avoid annoying identations on paste
+set pastetoggle=<F2>
