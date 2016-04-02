@@ -20,3 +20,7 @@ nmap <CR> :w<CR>
 
 " Avoid annoying identations on paste
 set pastetoggle=<F2>
+
+" ==== PLUGINS =============================================
+
+vnoremap <silent> <Enter>: EasyAlign<Enter>

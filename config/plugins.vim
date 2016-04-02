@@ -19,6 +19,10 @@ Plug 'junegunn/vim-easy-align'
 Plug 'wincent/command-t'
 " Move blocks/lines around
 Plug 'matze/vim-move'
+" Change working directory smart
+Plug 'airblade/vim-rooter'
+" Better buffer handling
+Plug 'jeetsukumaran/vim-buffergator'
 
 
 " ==== PROGRAMMING =========================================
