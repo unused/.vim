@@ -26,6 +26,6 @@ set pastetoggle=<F2>
 
 " ==== PLUGINS =============================================
 
-vnoremap <silent> <Enter>: EasyAlign<Enter>
+vnoremap <silent> <Enter> :EasyAlign<Enter>
 
 
