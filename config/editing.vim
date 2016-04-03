@@ -9,8 +9,11 @@ set expandtab
 set smartindent
 set autoindent
 
-" Strip trailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
+" Do not strip trailing whitespace for now
+" autocmd BufWritePre * :%s/\s\+$//e
+" But show them to me whitespace like tabs and newlines
+set list
+set listchars=trail:·,tab:»· " ,eol:$
 
 " Show matching paranthesis
 set showmatch
@@ -24,3 +27,5 @@ set pastetoggle=<F2>
 " ==== PLUGINS =============================================
 
 vnoremap <silent> <Enter>: EasyAlign<Enter>
+
+
