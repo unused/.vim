@@ -18,3 +18,5 @@ Having multiple buffers can be annoying without an overview [buffergator](https:
 
 See the [plugins config](/config/plugins.vim) to check used plugins.
 
+Via [ragtags](https://github.com/tpope/vim-ragtag) on can quickly close open _xml-like_ tags with `,/`. In embedded ruby templates use `<c-x>=`, `<c-x>%` or `<c-x>-` to open ruby tags.
+

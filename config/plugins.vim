@@ -33,6 +33,8 @@ Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 " Rails things
 Plug 'tpope/vim-rails'
+" Mapping for common tags, HTML, XML, embedded ruby templates, etc.
+Plug 'tpope/vim-ragtag'
 " Ruby things
 Plug 'vim-ruby/vim-ruby'
 

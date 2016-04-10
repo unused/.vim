@@ -19,6 +19,9 @@ set nowrap
 " When using wrap, wrap it not in the middle of a word pls
 set linebreak
 
+" Show 5 next lines when cursor is at the bottom
+set scrolloff=5
+
 " ==== PLUGINS =============================================
 
 " Enable statusline at bottom
