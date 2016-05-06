@@ -24,6 +24,15 @@ nmap <CR> :w<CR>
 " Avoid annoying identations on paste
 set pastetoggle=<F2>
 
+" Enforce UTF-8 encoding
+set encoding=utf-8
+" Encoding used for writing files.
+setglobal fileencoding=utf-8
+" Enforce unix file format
+set fileformats=unix
+" No tabs!
+set expandtab
+
 " ==== PLUGINS =============================================
 
 vnoremap <silent> <Enter> :EasyAlign<Enter>
