@@ -21,8 +21,6 @@ Plug 'wincent/command-t'
 Plug 'matze/vim-move'
 " Change working directory smart
 Plug 'airblade/vim-rooter'
-" Better buffer handling
-Plug 'jeetsukumaran/vim-buffergator'
 " Nice git wrapper
 Plug 'tpope/vim-fugitive'
 
