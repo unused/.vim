@@ -23,7 +23,8 @@ Plug 'matze/vim-move'
 Plug 'airblade/vim-rooter'
 " Better buffer handling
 Plug 'jeetsukumaran/vim-buffergator'
-
+" Nice git wrapper
+Plug 'tpope/vim-fugitive'
 
 " ==== PROGRAMMING =========================================
 
