@@ -36,5 +36,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-ragtag'
 " Ruby things
 Plug 'vim-ruby/vim-ruby'
+" Go things
+Plug 'fatih/vim-go'
 
 call plug#end()
