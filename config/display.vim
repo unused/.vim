@@ -6,7 +6,7 @@ colorscheme Tomorrow-Night
 
 " Hide toolbars and use a nicer font when using a GUI
 if has("gui_running")
-  set guioptions=egrt
+  set guioptions=egt
   set guifont=Menlo\ for\ Powerline\ 10
   noremap <C-z> <NOP>
 endif
