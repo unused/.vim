@@ -9,6 +9,7 @@ if has("gui_running")
   set guioptions=egt
   set guifont=Menlo\ for\ Powerline\ 10
   noremap <C-z> <NOP>
+  highlight LineNr guifg=gray
 endif
 
 " Color the column 80, so I can see when I reach that lenght of a line that is quite a lot
