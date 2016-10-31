@@ -38,5 +38,9 @@ Plug 'tpope/vim-ragtag'
 Plug 'vim-ruby/vim-ruby'
 " Go things
 Plug 'fatih/vim-go'
+" Jsx things
+Plug 'mxw/vim-jsx'
+" Run tests from vim
+Plug 'janko-m/vim-test'
 
 call plug#end()
