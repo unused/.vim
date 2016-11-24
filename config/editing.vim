@@ -9,9 +9,9 @@ set expandtab
 set smartindent
 set autoindent
 
-" Do not strip trailing whitespace for now
-" autocmd BufWritePre * :%s/\s\+$//e
-" But show them to me whitespace like tabs and newlines
+" Strip trailing whitespaces
+autocmd BufWritePre * :%s/\s\+$//e
+" Show them to me whitespace like tabs and newlines
 set list
 set listchars=trail:·,tab:»· " ,eol:$
 
