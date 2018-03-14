@@ -23,6 +23,8 @@ Plug 'matze/vim-move'
 Plug 'airblade/vim-rooter'
 " Nice git wrapper
 Plug 'tpope/vim-fugitive'
+" Unimpaired shortcut collection
+Plug 'tpope/vim-unimpaired'
 
 " ==== PROGRAMMING =========================================
 
