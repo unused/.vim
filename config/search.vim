@@ -14,4 +14,3 @@ set incsearch        "Find the next match as we type the search
 set ignorecase       "Ignore case in search patterns.
 " Override ignoring of case sensitivity on demand
 set smartcase
-

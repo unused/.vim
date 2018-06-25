@@ -16,7 +16,7 @@ Plug 'tpope/vim-surround'
 " Make alignment real easy
 Plug 'junegunn/vim-easy-align'
 " Fuzzy file searcher
-Plug 'wincent/command-t'
+Plug 'junegunn/fzf.vim'
 " Move blocks/lines around
 Plug 'matze/vim-move'
 " Change working directory smart

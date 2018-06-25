@@ -23,7 +23,7 @@ let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '~'
 
 " Set files to ignore with fuzzy search
-set wildignore+=*.log,*.sql,*.cache,*/.git,*/tmp
+set wildignore+=*.log,*.sql,*.cache,*/.git,*/tmp,*/node_modules
 
 " Use <C-HJKL> to move blocks/lines around
 let g:move_map_keys = 0
@@ -32,6 +32,7 @@ vmap <C-K> <Plug>MoveBlockUp
 nmap <C-J> <Plug>MoveLineDown
 nmap <C-K> <Plug>MoveLineUp
 
-" Remap command T
-nmap <leader><leader> :CommandT<CR>
-
+" Remap fuzzy finder fzf
+" nmap <leader><leader> :FZF<CR>
+nmap <leader><leader> :GFiles<CR>
+nmap <leader>b :Buffers<CR>

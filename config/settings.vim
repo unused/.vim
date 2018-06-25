@@ -26,4 +26,3 @@ source ~/.vim/config/plugins.vim
 set noswapfile
 set nobackup
 set nowb
-
