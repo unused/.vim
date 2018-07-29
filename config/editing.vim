@@ -35,6 +35,9 @@ set expandtab
 
 " ==== PLUGINS =============================================
 
+" Easy align things on Enter
 vnoremap <silent> <Enter> :EasyAlign<Enter>
 
+" Run tests via vim-dispatch
+nmap <leader>t :Dispatch<CR>
 

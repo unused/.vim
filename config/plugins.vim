@@ -25,6 +25,8 @@ Plug 'airblade/vim-rooter'
 Plug 'tpope/vim-fugitive'
 " Unimpaired shortcut collection
 Plug 'tpope/vim-unimpaired'
+" Build and test dispatcher
+Plug 'tpope/vim-dispatch'
 
 " ==== PROGRAMMING =========================================
 
@@ -44,5 +46,7 @@ Plug 'fatih/vim-go'
 Plug 'mxw/vim-jsx'
 " Run tests from vim
 Plug 'janko-m/vim-test'
+" Kotlin things
+Plug 'udalov/kotlin-vim'
 
 call plug#end()
