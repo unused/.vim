@@ -48,5 +48,7 @@ Plug 'mxw/vim-jsx'
 Plug 'janko-m/vim-test'
 " Kotlin things
 Plug 'udalov/kotlin-vim'
+" JavaScript formatter
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 call plug#end()

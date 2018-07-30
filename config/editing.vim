@@ -41,3 +41,6 @@ vnoremap <silent> <Enter> :EasyAlign<Enter>
 " Run tests via vim-dispatch
 nmap <leader>t :Dispatch<CR>
 
+" Run prettier JavaScript formatter on save
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.vue Prettier
