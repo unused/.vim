@@ -12,3 +12,7 @@ au BufNewFile,BufRead *.jsx.erb set filetype=javascript
 
 " ignore node modules directory
 set wildignore+=**/node_modules/**,node_modules/**
+
+" Run prettier JavaScript formatter on save
+let g:prettier#autoformat = 0
+" autocmd BufWritePre *.js,*.jsx,*.vue Prettier
