@@ -33,6 +33,9 @@ set fileformats=unix
 " No tabs!
 set expandtab
 
+" Set dictionary
+set dictionary+=/usr/share/dict/words
+
 " ==== PLUGINS =============================================
 
 " Easy align things on Enter
