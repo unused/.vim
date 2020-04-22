@@ -52,5 +52,7 @@ Plug 'udalov/kotlin-vim'
 Plug 'leafgarland/typescript-vim'
 " JavaScript formatter
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+" Dart things
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
