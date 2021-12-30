@@ -9,6 +9,7 @@ au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.vue set filetype=html
 au BufNewFile,BufRead *.js.erb set filetype=javascript
 au BufNewFile,BufRead *.jsx.erb set filetype=javascript
+au BufNewFile,BufRead *.svelte set filetype=html
 
 " ignore node modules directory
 set wildignore+=**/node_modules/**,node_modules/**
