@@ -30,7 +30,7 @@ Plug 'tpope/vim-dispatch'
 
 " ==== PROGRAMMING =========================================
 
-" Bundler FTW
+" Ruby bundler FTW
 Plug 'tpope/vim-bundler'
 " Auto ruby block ends
 Plug 'tpope/vim-endwise'
@@ -47,12 +47,14 @@ Plug 'mxw/vim-jsx'
 " Run tests from vim
 Plug 'janko-m/vim-test'
 " Kotlin things
-Plug 'udalov/kotlin-vim'
+" Plug 'udalov/kotlin-vim'
 " Typescript things
 Plug 'leafgarland/typescript-vim'
 " JavaScript formatter
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Dart things
-Plug 'dart-lang/dart-vim-plugin'
+" Plug 'dart-lang/dart-vim-plugin'
+" Rust things
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
