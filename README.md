@@ -7,7 +7,7 @@ A vim configuration, structured, small, simple, clean.
 
 ```sh
 $ git clone https://github.com/unused/.vim.git ~/.vim
-$ ln -s ~/.vim/vimrc ~/.vim
+$ ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
 See the [plugins config](/config/plugins.vim) to check used plugins. On first
