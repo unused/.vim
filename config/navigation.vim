@@ -3,14 +3,13 @@
 nnoremap <Leader>j :e#<CR>
 
 " Use ,dd to close a buffer
-noremap <silent> ,dd :close<CR>
+noremap <silent> ,dd :bd<CR>
 
 " Use <C-hjkl> to move between windows
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
-" Remember: use :split and :vsplit and <c-w><c-c> closes a window
 
 " ==== PLUGINS =============================================
 

@@ -12,13 +12,14 @@ if has("gui_running")
   highlight LineNr guifg=gray
 endif
 
-" Color the column 80, so I can see when I reach that lenght of a line that is quite a lot
+" Color the column 80, so I can see when I reach that lenght of a line that is
+" quite a lot.
 set colorcolumn=80
-" Show line numbers to me
+" Show line numbers to me.
 set number
-" No line wrap
+" No line wrap.
 set nowrap
-" When using wrap, wrap it not in the middle of a word pls
+" When using wrap, wrap it not in the middle of a word pls.
 set linebreak
 
 " Show 5 next lines when cursor is at the bottom

@@ -5,13 +5,12 @@ filetype plugin on
 " Use a indent of 2 spaces
 set tabstop=2
 set shiftwidth=2
-set expandtab
 set smartindent
 set autoindent
 
 " Strip trailing whitespaces
 autocmd BufWritePre * :%s/\s\+$//e
-" Show them to me whitespace like tabs and newlines
+" Show them to me: whitespace like tabs and newlines
 set list
 set listchars=trail:·,tab:»· " ,eol:$
 
@@ -30,8 +29,6 @@ set encoding=utf-8
 setglobal fileencoding=utf-8
 " Enforce unix file format
 set fileformats=unix
-" No tabs!
-set expandtab
 
 " Set dictionary
 set dictionary+=/usr/share/dict/words
