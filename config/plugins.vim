@@ -56,5 +56,7 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Plug 'dart-lang/dart-vim-plugin'
 " Rust things
 Plug 'rust-lang/rust.vim'
+" Svelte JavaScript
+Plug 'evanleck/vim-svelte', { 'branch': 'main' }
 
 call plug#end()
