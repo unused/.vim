@@ -53,4 +53,7 @@ Plug 'leafgarland/typescript-vim'
 " JavaScript formatter
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" Pandoc syntax support
+Plug 'vim-pandoc/vim-pandoc-syntax'
+
 call plug#end()
