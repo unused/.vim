@@ -13,7 +13,7 @@ if has("gui_running")
 endif
 
 " Color the column 80, so I can see when I reach that lenght of a line that is quite a lot
-set colorcolumn=80
+set colorcolumn=80,120
 " Show line numbers to me
 set number
 " No line wrap
@@ -33,3 +33,6 @@ set laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
+
+" Remove Ale highlighting
+let g:ale_set_highlights = 0

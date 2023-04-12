@@ -50,3 +50,5 @@ let g:ale_fixers = {
 \ 'ruby': ['rubocop'],
 \ 'javascript': ['eslint']
 \}
+
+:noremap <leader>v :ALEFix<CR>
