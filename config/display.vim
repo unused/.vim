@@ -28,3 +28,8 @@ set scrolloff=5
 
 " Enable statusline at bottom
 set laststatus=2
+
+" Fix airline symbols
+let g:airline_powerline_fonts=1
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
