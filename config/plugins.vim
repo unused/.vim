@@ -2,11 +2,9 @@
 call plug#begin('~/.vim/plugged')
 
 " File exploring with nerdtree
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 " Commenting code
-Plug 'scrooloose/nerdcommenter'
-" Having a nicer bottom status line
-Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdcommenter'
 " Tab completion
 Plug 'ervandew/supertab'
 " Show some versioning info
