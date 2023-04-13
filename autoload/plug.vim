@@ -116,10 +116,6 @@ let s:TYPE = {
 let s:loaded = get(s:, 'loaded', {})
 let s:triggers = get(s:, 'triggers', {})
 
-function! s:is_powershell(shell)
-  return a:shell =~# 'powershell\(\.exe\)\?$' || a:shell =~# 'pwsh\(\.exe\)\?$'
-endfunction
-
 function! s:isabsolute(dir) abort
   return a:dir =~# '^/' || (has('win32') && a:dir =~? '^\%(\\\|[A-Z]:\)')
 endfunction
@@ -264,16 +260,6 @@ function! s:define_commands()
   command! -nargs=+ -bar Plug call plug#(<args>)
   if !executable('git')
     return s:err('`git` executable not found. Most commands will not be available. To suppress this message, prepend `silent!` to `call plug#begin(...)`.')
-  endif
-  if has('win32')
-  \ && &shellslash
-  \ && (&shell =~# 'cmd\(\.exe\)\?$' || s:is_powershell(&shell))
-    return s:err('vim-plug does not support shell, ' . &shell . ', when shellslash is set.')
-  endif
-  if !has('nvim')
-    \ && (has('win32') || has('win32unix'))
-    \ && !has('multi_byte')
-    return s:err('Vim needs +multi_byte feature on Windows to run shell commands. Enable +iconv for best results.')
   endif
   command! -nargs=* -bar -bang -complete=customlist,s:names PlugInstall call s:install(<bang>0, [<f-args>])
   command! -nargs=* -bar -bang -complete=customlist,s:names PlugUpdate  call s:update(<bang>0, [<f-args>])

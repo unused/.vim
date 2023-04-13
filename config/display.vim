@@ -12,9 +12,8 @@ if has("gui_running")
   highlight LineNr guifg=gray
 endif
 
-" Color the column 80, so I can see when I reach that lenght of a line that is
-" quite a lot.
-set colorcolumn=80
+" Color the column 80, so I can see when I reach that lenght of a line that is quite a lot
+set colorcolumn=80,120
 " Show line numbers to me.
 set number
 " No line wrap.
@@ -29,3 +28,11 @@ set scrolloff=5
 
 " Enable statusline at bottom
 set laststatus=2
+
+" Fix airline symbols
+let g:airline_powerline_fonts=1
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
+
+" Remove Ale highlighting
+let g:ale_set_highlights = 0

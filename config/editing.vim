@@ -40,3 +40,12 @@ vnoremap <silent> <Enter> :EasyAlign<Enter>
 
 " Run tests via vim-dispatch
 nmap <leader>t :Dispatch<CR>
+
+" Rubocop Ale options and fixers
+let g:ale_ruby_rubocop_options='--server'
+let g:ale_fixers = {
+\ 'ruby': ['rubocop'],
+\ 'javascript': ['eslint']
+\}
+
+:noremap <leader>v :ALEFix<CR>
