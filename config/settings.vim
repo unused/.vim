@@ -1,5 +1,4 @@
 
-
 " Use comma as leader key
 let mapleader=","
 

@@ -37,7 +37,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " ==== PROGRAMMING =========================================
 
-" Bundler FTW
+" Ruby bundler FTW
 Plug 'tpope/vim-bundler'
 " Auto ruby block ends
 Plug 'tpope/vim-endwise'
@@ -63,6 +63,14 @@ Plug 'dense-analysis/ale'
 " Typescript things
 " Plug 'leafgarland/typescript-vim'
 " JavaScript formatter
+
 " Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+" Dart things
+" Plug 'dart-lang/dart-vim-plugin'
+" Rust things
+Plug 'rust-lang/rust.vim'
+" Svelte JavaScript
+Plug 'evanleck/vim-svelte', { 'branch': 'main' }
+
 
 call plug#end()
