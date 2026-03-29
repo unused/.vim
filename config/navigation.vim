@@ -35,3 +35,30 @@ nmap <C-K> <Plug>MoveLineUp
 " nmap <leader><leader> :FZF<CR>
 nmap <leader><leader> :GFiles<CR>
 nmap <leader>b :Buffers<CR>
+
+" copy current filepath to clipboard
+nnoremap <silent> cp :let @+ = expand("%")<CR>
+
+
+" ==== CUSTOM =============================================
+
+function OpenRelatedFile(path)
+  if a:path =~ '_test'
+    if a:path =~ 'lib'
+      execute 'edit' . substitute(substitute(expand('%:p:r').'.'.expand('%:e'),'/test/lib/', '/lib/', 'g'), '_test', '', 'g')
+    else
+      execute 'edit' . substitute(substitute(expand('%:p:r').'.'.expand('%:e'),'/test/', '/app/', 'g'), '_test', '', 'g')
+    endif
+  else
+    if a:path =~ 'lib'
+      execute 'edit ' . substitute(expand('%:p:r').'_test.'.expand('%:e'), '/lib/', '/test/lib/', 'g')
+    else
+      execute 'edit ' . substitute(expand('%:p:r').'_test.'.expand('%:e'), '/app/', '/test/', 'g')
+    endif
+  endif
+endfunction
+
+" automatically open Testfile
+" https://vi.stackexchange.com/questions/10664/file-type-dependent-key-mapping
+" for ruby
+:command S execute OpenRelatedFile(expand('%:p:r').expand('%:e'))

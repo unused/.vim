@@ -25,6 +25,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-unimpaired'
 " Build and test dispatcher
 Plug 'tpope/vim-dispatch'
+" Case conversion (CoeRcion) and substitions
+" Press crs (coerce to snake_case). MixedCase (crm), camelCase (crc),
+" UPPER_CASE (cru), dash-case (cr-), and dot.case (cr.) are all just 3
+" keystrokes away.
+Plug 'tpope/vim-abolish'
 " Pandoc syntax support
 Plug 'vim-pandoc/vim-pandoc-syntax'
 " Nord Vim Theme
@@ -32,6 +37,8 @@ Plug 'arcticicestudio/nord-vim'
 " Custom tagline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Solarized Colors
+Plug 'altercation/vim-colors-solarized'
 
 " ==== PROGRAMMING =========================================
 
@@ -43,6 +50,8 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
 " Mapping for common tags, HTML, XML, embedded ruby templates, etc.
 Plug 'tpope/vim-ragtag'
+" Slim syntax highlighting
+" Plug 'slim-template/vim-slim'
 
 " Ruby things
 Plug 'vim-ruby/vim-ruby'
@@ -61,7 +70,6 @@ Plug 'dense-analysis/ale'
 " Typescript things
 " Plug 'leafgarland/typescript-vim'
 " JavaScript formatter
-
 " Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Dart things
 " Plug 'dart-lang/dart-vim-plugin'
@@ -69,6 +77,14 @@ Plug 'dense-analysis/ale'
 Plug 'rust-lang/rust.vim'
 " Svelte JavaScript
 Plug 'evanleck/vim-svelte', { 'branch': 'main' }
+" Elixir
+Plug 'elixir-editors/vim-elixir'
+" Unison
+" Plug 'unisonweb/unison', { 'branch': 'trunk', 'rtp': 'editor-support/vim' }
+" D2 Diagramming Language
+Plug 'terrastruct/d2-vim'
 
-
+" Copilot Setup
+Plug 'github/copilot.vim'
+let g:copilot_node_command = "~/.nvm/versions/node/v21.4.0/bin/node"
 call plug#end()

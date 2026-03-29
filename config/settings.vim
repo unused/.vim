@@ -20,6 +20,7 @@ source ~/.vim/config/navigation.vim
 source ~/.vim/config/search.vim
 
 source ~/.vim/config/plugins.vim
+source ~/.vim/config/copilot.vim
 
 " Disable swap and backup files
 set noswapfile

@@ -33,6 +33,11 @@ set fileformats=unix
 " Set dictionary
 set dictionary+=/usr/share/dict/words
 
+" ==== SHORTHANDS ==========================================
+
+" Ruby: def test to test do
+:map <F5> ^dwf_r lveS'vi':s/_/ /g<CR>A do<Esc>^:noh<CR>
+
 " ==== PLUGINS =============================================
 
 " Easy align things on Enter
@@ -49,3 +54,7 @@ let g:ale_fixers = {
 \}
 
 :noremap <leader>v :ALEFix<CR>
+
+" Adapt Copilot mapping that uses ALT that is not available
+" due to conflicts with terminal (see :help copilot)
+imap <C-o> <Plug>(copilot-next)
