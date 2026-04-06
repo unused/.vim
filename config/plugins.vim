@@ -85,6 +85,6 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'terrastruct/d2-vim'
 
 " Copilot Setup
-Plug 'github/copilot.vim'
-let g:copilot_node_command = "~/.nvm/versions/node/v21.4.0/bin/node"
+" Plug 'github/copilot.vim'
+" let g:copilot_node_command = "~/.nvm/versions/node/v21.4.0/bin/node"
 call plug#end()
